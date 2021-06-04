@@ -8,6 +8,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="publicVersion" value="20210604"></c:set>
 <c:set var="CONTEXT_PATH" value="${pageContext.request.contextPath}"></c:set>
+<script src="<c:url value="/js/jquery-3.6.0.min.js" />"></script>
 <script type="text/javascript" src="<c:url value='/js/main.js'/>"></script>
 <link rel="stylesheet" type="text/css" href="<c:url value='/css/main.css?version=${publicVersion}'/>">
 </head>
@@ -26,7 +27,6 @@
   </section>
 </div>
 <a id="back-top" href="#top"><i class="fa fa-chevron-up"></i></a>
-
 
 </body>
 </html>

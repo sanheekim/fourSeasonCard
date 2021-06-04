@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
     $("h1, p").delay("1000").fadeIn();
