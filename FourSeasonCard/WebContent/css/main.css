@@ -1,0 +1,46 @@
+
+body {
+  margin:0;
+  display:block;
+}
+h1, p { 
+  display: none; 
+  margin:15px;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+p {
+  line-height:1.5em;
+  text-align: justify;
+}
+.container {
+  padding:15px;
+  min-height:100vh;
+}
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#back-top {
+  position: fixed; 
+  display:none; 
+  font-size: 50px;
+  color: #fff;
+  mix-blend-mode: difference;
+  bottom: 5px; 
+  right:10px; 
+  width:auto;
+}
+a#back-top:active {
+  background:none;
+}
+a#back-top {
+  display: block; 
+  text-decoration: none;
+}
+.topup {
+  bottom:5px;
+}
+#back-top i {
+  display: block;
+}
