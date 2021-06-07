@@ -12,40 +12,42 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="<c:url value='/js/main.js'/>"></script>
 <script type="text/javascript" src="<c:url value='/js/jquery-sakura.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/js/jquery-snowfall.js'/>"></script>
 <link rel="stylesheet" type="text/css" href="<c:url value='/css/main.css?version=${publicVersion}'/>">
 <link rel="stylesheet" type="text/css" href="<c:url value='/css/jquery-sakura.css?version=${publicVersion}'/>">
 <script>
-$(window).load(function () {
-    $('#spring').sakura();
+$(document).ready(function () {
+    $("#spring").sakura();
+    $("#winter").snowfall({deviceorientation : true, round : true, minSize: 1, maxSize:8,  flakeCount : 250});
 });
 </script>
 </head>
 <body>
 
-<div class="container" id="spring" style="background:white">
-  <section>
-    <h1>Hello world :)</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
-  </section>
-</div>
-
-<div class="container" id="summer" style="background:skyblue">
-  <section>
-    <h1>Hello world :)</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
-  </section>
-</div>
-
-<div class="container" id="autumn" style="background:orange">
-  <section>
-    <h1>Hello world :)</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
-  </section>
-</div>
-
-<div class="container" id="winter" style="background:black">
+<div class="container" id="winter">
   <section>
     <h1 style="color:#fff">Hello world :)</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
+  </section>
+</div>
+
+<div class="container" id="summer">
+  <section>
+    <h1>Hello world :)</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
+  </section>
+</div>
+
+<div class="container" id="autumn">
+  <section>
+    <h1>Hello world :)</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
+  </section>
+</div>
+
+<div class="container" id="spring">
+  <section>
+    <h1>Hello world :)</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo. Risus nullam eget felis eget nunc lobortis mattis aliquam. Vel fringilla est ullamcorper eget nulla. Lacus viverra vitae congue eu consequat ac felis donec. Morbi tempus iaculis urna id volutpat lacus laoreet. Habitant morbi tristique senectus et. Eu volutpat odio facilisis mauris sit. Et malesuada fames ac turpis egestas. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Commodo viverra maecenas accumsan lacus.</p>
   </section>
 </div>
