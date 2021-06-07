@@ -1,3 +1,5 @@
+/* * * * * 공통 * * * * */
+
 body {
 	margin: 0;
 	display: block;
@@ -52,9 +54,25 @@ a#back-top {
 	display: block;
 }
 
+/* * * * * index.jsp * * * * */
+
 #winter {
 	background-color: black;
 }
+
+#winterRudolph {
+	background-color: green;
+}
+
+#winterTree {
+	background-color: red;
+}
+
+#button {
+	text-align: center;
+}
+
+/* * * * * spring.jsp * * * * */
 
 #spring {
 	background-color: white;
@@ -64,7 +82,4 @@ a#back-top {
 	background-color: skyblue;
 }
 
-#autumn {
-	background-color: orange;
-}
-
+/* * * * * autumn.jsp * * * * */
