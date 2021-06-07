@@ -24,11 +24,10 @@ section {
   position: fixed; 
   display:none; 
   font-size: 50px;
-  color: #fff;
-  mix-blend-mode: difference;
-  bottom: 5px; 
-  right:10px; 
+  bottom: 20px; 
+  right:20px; 
   width:auto;
+  height:51px;
 }
 a#back-top:active {
   background:none;
