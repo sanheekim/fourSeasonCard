@@ -72,6 +72,11 @@ a#back-top {
 	text-align: center;
 }
 
+section {
+	margin-top: 50px;
+}
+
+
 /* * * * * spring.jsp * * * * */
 
 #spring {
@@ -81,5 +86,10 @@ a#back-top {
 #summer {
 	background-color: skyblue;
 }
+
+.section {
+	margin-top: 100px;
+}
+
 
 /* * * * * autumn.jsp * * * * */
