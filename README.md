@@ -13,9 +13,11 @@
 
 ---
 ## 화면구현
+
 - Snowy Page
 
-![눈 오는 효과]()
+![눈 오는 효과](https://user-images.githubusercontent.com/68312957/121298818-73e58680-c92f-11eb-954d-255d847ddd9a.gif)
 
 - Cherry Blossom & Autumn Hover Page
-![벚꽃잎 떨어지는 효과]()
+
+![벚꽃잎 떨어지는 효과](https://user-images.githubusercontent.com/68312957/121298972-b14a1400-c92f-11eb-9d4b-63da78df172a.gif)
