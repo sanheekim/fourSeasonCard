@@ -13,3 +13,10 @@
 
 ---
 ## 화면구현
+- Snowy Page
+
+![부트페이 API](https://user-images.githubusercontent.com/68312957/108027260-3d78b880-706d-11eb-86f9-8979b531babc.gif)
+
+- Cherry Blossom Page
+
+- Autumn Page
