@@ -15,8 +15,7 @@
 ## 화면구현
 - Snowy Page
 
-![부트페이 API](https://user-images.githubusercontent.com/68312957/108027260-3d78b880-706d-11eb-86f9-8979b531babc.gif)
+![눈 오는 효과](https://user-images.githubusercontent.com/68312957/121282803-147a7d00-c915-11eb-8199-d1807b2918f4.mp4)
 
-- Cherry Blossom Page
-
-- Autumn Page
+- Cherry Blossom & Autumn Hover Page
+![벚꽃잎 떨어지는 효과](https://user-images.githubusercontent.com/68312957/121282993-602d2680-c915-11eb-81e6-1246ae8a8f63.mp4)
